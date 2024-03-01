@@ -3,7 +3,7 @@ import React from "react";
 
 const getTicketById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/Tickets/${id}`, {
+    const res = await fetch(`https://ticket-app-steel.vercel.app/api/Tickets/${id}`, {
       cache: "no-store",
     });
 
